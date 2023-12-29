@@ -60,7 +60,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
                 android:text="Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et accumsan metus. Quisque quis commodo quam."
                 android:textStyle="bold" />
 
@@ -69,12 +69,53 @@
                 android:id="@+id/textViewProductPrice"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:text="Price: 500/= \nLength: 454 Pages \nAbility:In Stock \nRelease Date:23.01.2022
-\nGenre: None \nPage Quality: Premium
-"
+                android:text="Price: 500/="
                 android:textSize="13sp"
                 android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textViewProductAbility"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ability:In Stock "
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textViewProductLength"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Length: 454 Pages"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+                android:id="@+id/textViewDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Release Date:23.01.2022"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textViewGenre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Genre: None "
+                android:textSize="13sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textViewQuality"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Page Quality: Premium"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+
 
             <TextView
                 android:id="@+id/textViewProductPReview"
@@ -91,7 +132,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:text="Description: Lorem ipsum dolor sit amet, msan . Quisque quis commodo quam."
+                android:text="Review: Best Book. Nice service. Book page quality Premium."
                 android:textStyle="bold" />
 
 
