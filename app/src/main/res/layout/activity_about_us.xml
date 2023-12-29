@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".aboutUs">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_background"
+        android:elevation="8dp"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:shadowColor="#80000000"
+        android:shadowDx="4"
+        android:shadowDy="5"
+        android:shadowRadius="8"
+        android:textStyle="bold">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="OUR MISSION"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="To provide the most actionable app store data."
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif"
+            android:text="ABOUT"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="Welcome to our Book Shop App, where a world of literary adventures awaits you. Explore our extensive collection of books, from bestsellers to hidden gems, carefully curated to ignite your imagination. At WISDOM BULLET, we are passionate about connecting readers with their next great read. Happy reading!"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="10dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="20dp"
+        android:background="@drawable/rounded_background"
+        android:elevation="8dp"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:shadowColor="#80000000"
+        android:shadowDx="4"
+        android:shadowDy="5"
+        android:shadowRadius="8"
+        android:textStyle="bold">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="LEADERSHIP"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    >
+
+
+                    <ImageView
+                        android:id="@+id/imageViewProfile"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/female" />
+
+                    <TextView
+                        android:id="@+id/textViewName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:text="Bibi Khadiza"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:text="ID: 192002040"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:fontFamily="sans-serif"
+                        android:text="I'm MERN Stack Developer. I love problem solving. Hobbies are traveling, gardening, Drawing. I want to be a business women of software."
+                        android:textSize="10dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:text="Department: CSE"
+                        android:textSize="10dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:text="Green University of Bangladesh"
+                        android:textSize="10dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="95dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/male" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:text="Md Latiful Hasan Mahmud "
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:text="ID: 201002168"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:text="I'm Developer. I love problem solving. Hobbies are Hiking, watching Games, Reading. I want to be an software Engineer."
+                        android:textSize="10dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:text="Department: CSE"
+                        android:textSize="10dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:text="Green University of Bangladesh"
+                        android:textSize="10dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

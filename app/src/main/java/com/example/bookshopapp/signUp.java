@@ -21,24 +21,9 @@ public class signUp extends AppCompatActivity {
         setContentView(R.layout.activity_sign_up);
         //start
 
-        TextView textView = findViewById(R.id.textView);
 
-        SpannableString spannableString = new SpannableString("Already have an Account? Login");
 
-        ClickableSpan clickableSpan = new ClickableSpan() {
-            @Override
-            public void onClick(View view) {
-                // Handle the click event, e.g., navigate to another intent page
-                Intent intent = new Intent(signUp.this, login.class);
-                startActivity(intent);
-            }
-        };
 
-        // Set the clickable span only for the word "Login"
-        spannableString.setSpan(clickableSpan, 23, 28, SpannableString.SPAN_EXCLUSIVE_EXCLUSIVE);
-
-        textView.setText(spannableString);
-        textView.setMovementMethod(LinkMovementMethod.getInstance());
     }
 
 //end

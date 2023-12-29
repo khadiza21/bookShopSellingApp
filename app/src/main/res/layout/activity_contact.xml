@@ -41,7 +41,7 @@
             android:fontFamily="sans-serif"
             android:text="CUSTOMER SERVICE"
             android:textAlignment="center"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="13dp"
             android:textStyle="bold" />
 
@@ -51,7 +51,7 @@
             android:fontFamily="sans-serif"
             android:text="NUMBER:  +880 01766541329"
             android:textAlignment="center"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="10dp"
             android:textStyle="bold" />
 
@@ -61,7 +61,7 @@
             android:fontFamily="sans-serif"
             android:text="Service Time:  10am - 6.30pm (Bangladesh time)"
             android:textAlignment="center"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="10dp"
             android:textStyle="bold" />
 
@@ -73,7 +73,7 @@
             android:fontFamily="sans-serif"
             android:text="STORE LOCATOR"
             android:textAlignment="center"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="13dp"
             android:textStyle="bold" />
 
@@ -83,7 +83,7 @@
             android:fontFamily="sans-serif"
             android:text="Address: 521 Fifth Avenue, Nilkhet, NK 10783"
             android:textAlignment="center"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="10dp"
             android:textStyle="bold" />
 
@@ -93,10 +93,14 @@
             android:fontFamily="sans-serif"
             android:text="Monday to Friday"
             android:textAlignment="center"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="10dp"
             android:textStyle="bold" />
     </LinearLayout>
+
+
+
+
 
 
     <TextView
