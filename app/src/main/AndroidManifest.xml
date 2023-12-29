@@ -13,6 +13,9 @@
         android:theme="@style/Theme.BookShopApp"
         tools:targetApi="31">
         <activity
+            android:name=".bookDetails"
+            android:exported="false" />
+        <activity
             android:name=".testImage"
             android:exported="false" />
         <activity
