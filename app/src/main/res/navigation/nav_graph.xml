@@ -3,13 +3,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/FirstFragment">
+    app:startDestination="@id/navigation_home">
 
     <fragment
-        android:id="@+id/FirstFragment"
+        android:id="@+id/navigation_home"
         android:name="com.example.bookshopapp.FirstFragment"
         android:label="@string/first_fragment_label"
-        tools:layout="@layout/fragment_first">
+        tools:layout="@layout/fragment_home">
 
         <action
             android:id="@+id/action_FirstFragment_to_SecondFragment"
@@ -26,3 +26,22 @@
             app:destination="@id/FirstFragment" />
     </fragment>
 </navigation>
+
+<fragment
+    android:id="@+id/navigation_home"
+    android:name="com.scaredeer.bottomnavigation.ui.home.HomeFragment"
+    android:label="@string/title_home"
+    tools:layout="@layout/fragment_home" />
+
+<fragment
+    android:id="@+id/navigation_dashboard"
+    android:name="com.scaredeer.bottomnavigation.ui.dashboard.DashboardFragment"
+    android:label="@string/title_dashboard"
+    tools:layout="@layout/fragment_dashboard" />
+
+<fragment
+    android:id="@+id/navigation_notifications"
+    android:name="com.scaredeer.bottomnavigation.ui.notifications.NotificationsFragment"
+    android:label="@string/title_notifications"
+    tools:layout="@layout/fragment_notifications" />
+
